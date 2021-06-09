@@ -275,7 +275,7 @@ async def inuka(client, message):
 
 
 @Yone.on_message(
-    filters.regex("yone|yone|Yone|Yone|Yone")
+    filters.regex("inaya|inaya|Inaya|Inaya|Yone")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
