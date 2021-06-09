@@ -81,12 +81,12 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🦋 ᴀᴅᴅ ɪɴᴀʏᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋", url="t.me/Yone_Robot?startgroup=true"),
+            text="🦋 ᴀᴅᴅ ɪɴᴀʏᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋", url="t.me/MissInaya_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="🍄ꜱᴜᴘᴘᴏʀᴛ🍄", url=f"https://t.me/magiclmush"
         ),
     ],
     [
@@ -102,7 +102,7 @@ HELP_STRINGS = """
 yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @kittu5588 \
+ You can support the project via [Paypal](#) or by contacting @kid_of_telegram \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -356,8 +356,8 @@ def yone_about_callback(update, context):
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/noob-kittu/YoneRobot).
+                 \n\n_inaya's licensed under the GNU General Public License v3.0_
+                 \nHere is the [💾Repository](https://t.me/kid_of_telegram).
                  \n\nIf you have any question about yone, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *ɪɴᴀʏᴀ*
-                 \nHere is the [Source Code](https://github.com/Noob-kittu/YoneRobot) .""",
+                 \nHere is the [Source Code](https://t.me/kid_of_telegram) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
