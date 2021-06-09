@@ -114,9 +114,9 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("yone", "Aco")
-        test = test.replace("yone", "Aco")
-        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@YoneRobot&ownername=@A_viyu"
+        test = test.replace("inaya", "Aco")
+        test = test.replace("inaya", "Aco")
+        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@MissInaya_bot&ownername=@kid_of_telegram"
 
         try:
             r = requests.request("GET", url=URL)
@@ -251,8 +251,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("yone", "Aco")
-    test = test.replace("yone", "Aco")
+    test = test.replace("inaya", "Aco")
+    test = test.replace("inaya", "Aco")
     URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@MissInaya_bot&ownername=@kid_of_telegram"
     try:
         r = requests.request("GET", url=URL)
@@ -275,7 +275,7 @@ async def inuka(client, message):
 
 
 @Yone.on_message(
-    filters.regex("inaya|inaya|Inaya|Inaya|Yone")
+    filters.regex("inaya|inaya|Inaya|Inaya|Inaya")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -329,8 +329,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("yone", "Aco")
-    test = test.replace("yone", "Aco")
+    test = test.replace("inaya", "Aco")
+    test = test.replace("inaya", "Aco")
     URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@MissInaya_bot&ownername=@kid_of_telegram"
     try:
         r = requests.request("GET", url=URL)
