@@ -14,7 +14,7 @@
   <img src="https://telegra.ph/file/c1981824c51840d62eab2.jpg">
 </p>
 
-# YoneRobot
+# MissInaya_bot
 Me On Telegram [✨Inaya✨](https://t.me/MissInaya_bot)
 
 ## How To Host
