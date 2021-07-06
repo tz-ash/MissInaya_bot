@@ -1,14 +1,14 @@
-from YoneRobot.events import register
-from YoneRobot import telethn as tbot
+from LaylaRobot.events import register
+from LaylaRobot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-kittu = "YONE"
+Hero = "Layla"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=kittu)
+r = telegraph.create_account(short_name=Hero)
 auth_url = r["auth_url"]
 
 
@@ -78,4 +78,4 @@ def resize_image(image):
     im = Image.open(image)
     im.save(image, "PNG")
 
-
+__mod_name__ = "Telegraph"
