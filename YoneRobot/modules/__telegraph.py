@@ -1,14 +1,14 @@
-from YoneRoBot.events import register
-from YoneRoBot import telethn as tbot
+from YoneRobot.events import register
+from YoneRobot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-kid = "inaya"
+kittu = "YONE"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=kid)
+r = telegraph.create_account(short_name=kittu)
 auth_url = r["auth_url"]
 
 
