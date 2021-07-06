@@ -1,4 +1,4 @@
-from ToneRobot.events import register
+from YoneRobot.events import register
 from YoneRobot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
@@ -12,7 +12,7 @@ r = telegraph.create_account(short_name=kittu)
 auth_url = r["auth_url"]
 
 
-@register(pattern="^/t(m|xt) ?(.*)")
+@register(pattern="^/t(xm|xt) ?(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -42,7 +42,7 @@ async def _(event):
                 ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
                 await h.edit("Uploaded to https://telegra.ph{})".format(media_urls[0]), link_preview=True)
-        elif input_str == "xt":
+        elif input_str == "t":
             user_object = await tbot.get_entity(r_message.sender_id)
             title_of_page = user_object.first_name # + " " + user_object.last_name
             # apparently, all Users do not have last_name field
@@ -77,5 +77,3 @@ async def _(event):
 def resize_image(image):
     im = Image.open(image)
     im.save(image, "PNG")
-
-
